@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ewyl-crm-464007",
+  "private_key_id": "fd4c59723b921c1c6ac5f49574c2a407a7b77c3b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC37nPqGAA7Quvt\nB1VHOQgdB9tKvwFVPmA4mzB7i2MD0JG3v7KSyxI2ngC0g/PFO1kxMqYCU/VcGRDC\nk3+1WIwF+LmxHYmG1Rr2PeLYYkk9vuFqFZqKIm70RvDRfr2VWZwjHDmSvEQIfd8Z\nKw0HU50dXgUr1V6GOh2T0e8pcEEIBS69k5tCyf0gDpo1yZcDZ8+f8gNU1moljlZr\n6fTHn8R0A0FvTBAUm+f779JWTBw4lLEMdMlwrogz7cAz2RL4aHBWeEzpdMRZjD3q\nN8Mj894acT0wSizj3WofZw2xVGWFp8ZBTpMwT5dB7HK5RmAlLfPcbHGr6m9BT+Vx\nfcms3xZTAgMBAAECggEAHzP2uinkMCmEOKvbzb9hHvusOhv5L+rrC+9X5D2bSJRj\nhBajRr/okRdw6y7PdhBBa1U6UH7Jyxv9eeTn723cI080wVVPdW5FqqyJBUh3QGBX\ngVW05+Y7iHlYdVHY+7M+B77MDZaevAoOhQiGp02KA+dlXTBPXtoRFniw6AjBH4jn\n2h3F7aEazoAtYGzTSfcBdGuHv9E30NJAhpyEM0kmGu4bKp1ksx3nu4Qzrv3aas6/\nR+oQzboWo4xBC9wOqxjUyk90zs0ur6QSu81ykOIbDyW78Z2TTPpIoVaRQdCwJBpK\nN7Aqo92JskxIZEuey6i5PTaAh46G7ZOQKvrFQumY0QKBgQDiY3EE3nVseBESAdtd\n+pCK6GOvRNDmDuzmp4YeGhNNjTxIt6yz6mEoVAYzoWHXkFd9JYfwhcM7PXVMxFpn\nwL3aRf+tI7ACIyO2UMbOV3cPdRUM0xgqAxfzF471nSs3qqxmt+wy2tjEBI0u49Td\nGpEJLnvCrAQEa2Xdi2RBOQuwhQKBgQDP/VmeMDjslYBGYaettfEGSNNbCAhJmibo\nod+bLxs867701RUhHYFfPMxlTJK87ahokdZPx/3Z17AFdkj17q+zU6eSIqeS5hO9\nh0r0j5eQfmHfyfrd1wScS4MdjNEhOBaJQoCUGE3B4dKED+2wARdklD/aGjeYSTc4\nDl+GklaO9wKBgH++BOPucuvFxDwY+CNLY4w+HSGk/wsRmPN9y9vocsPr0fxmR/kt\nY61R3D397iuosvVW3CIIGGWxBCNRGII66+XiYabc4FAUa+5QHh4IlJIQStR1uMjb\n/gOZY32MNfqvP6CmX41Cl9Xji5bN0CsC9pvrssHiNlIYF96u7N8wxTvRAoGBAJIz\nAPKr7OeIMxHGBSqa8KA9QqwDWmf6Po1Zc6dOlnPdNm489cxARDcgsoAmMiMxXyaa\nFK4h4zNkZGuCeMi+jaydCfYz+9zLc2bPGgYMhTphTAUVogyb3rbKcZCs8jfKiDTV\nlTIEX2wAg4ym8am9KqddegCiWx/lnzX9DHK4nLWDAoGAWmT8Asb3FmQ56OhLkc0u\nIvop2xJi4GBjUxFFD/gedaKF5MwBKw6T6Sqr466XhcH2T1vfp+33PPtr01b+NicZ\n0p3N4hWrdapaT6tq80tw6A7sAf/n2VVtFQ0rwDLBX/7Elq1YhGmA5E7Hlen0NPN5\n/LEys3DNaRnNxUSSQ6Ozpx8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ewyl-crm-service-account@ewyl-crm-464007.iam.gserviceaccount.com",
+  "client_id": "104963943699356675088",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ewyl-crm-service-account%40ewyl-crm-464007.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -4,12 +4,15 @@ from streamlit_js_eval import streamlit_js_eval
 import json
 
 st.set_page_config(page_title="EWYL Mentor Login", layout="centered")
-st.title("🔐 Login with Google (GSI - No Firebase)")
+st.title("🔐 Login with Google (No Firebase)")
 
-client_id = "580398234002-e3haoistiqj5hqs9p7o6sss7uqiauf22.apps.googleusercontent.com"  # ⬅️ Replace this
+# Step 1: Insert your OAuth Client ID here
+client_id = "580398234002-e3haoistiqj5hqs9p7o6sss7uqiauf22.apps.googleusercontent.com"  # <-- 🔁 Replace this
 
+# Step 2: Google Identity Services login button + handler
 google_login_html = f"""
 <script src="https://accounts.google.com/gsi/client" async defer></script>
+
 <div id="g_id_onload"
      data-client_id="{client_id}"
      data-context="signin"
@@ -17,6 +20,7 @@ google_login_html = f"""
      data-callback="handleCredentialResponse"
      data-auto_prompt="false">
 </div>
+
 <div class="g_id_signin"
      data-type="standard"
      data-shape="rectangular"
@@ -43,8 +47,10 @@ google_login_html = f"""
 </script>
 """
 
+# Step 3: Render login
 components.html(google_login_html, height=400)
 
+# Step 4: Wait for login info to arrive via postMessage
 result = streamlit_js_eval(js_expressions="window.lastLogin", key="google_login")
 
 if result and isinstance(result, str):
@@ -54,9 +60,16 @@ if result and isinstance(result, str):
         user_name = login_data.get("name", "")
         st.success(f"✅ Welcome {user_name} ({user_email})")
 
-        # Use user_email in your logic here
+        # 🔁 You can now plug in your Google Sheets logic here:
+        # For example:
+        # - Load your sheet
+        # - Match email in Users tab
+        # - Show filtered data
+
+        st.info("✔️ Login successful. Now you can load and filter your data.")
 
     except Exception as e:
-        st.error(f"Login error: {e}")
+        st.error(f"Login failed: {e}")
+        st.stop()
 else:
-    st.info("Please log in to continue.")
+    st.info("⏳ Waiting for Google login...")
